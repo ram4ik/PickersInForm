@@ -23,6 +23,7 @@ struct ContentView: View {
 
                         }
                     }
+                        .pickerStyle(WheelPickerStyle())
                 }
             }.navigationBarTitle("Select your cheese")
 
